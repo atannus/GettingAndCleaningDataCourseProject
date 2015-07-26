@@ -27,6 +27,6 @@ The analysis script performs the following steps:
 
 ## Variables
 
-The variables in the tidy data set ```output.txt``` are the **mean values** for all the records in the aggregate Training and Test data sets **grouped by _Subject_ and _Activity_**. Note that the orignal data has contains average sensor readings at 2.56 seconds (128 sensor readings at 50 Hz), which samples the activity data over period of several seconds. The tidy data contains one single global average per Subject per Activity (the usefulness of which is beyond this studend's grasp), so the variable names are still indicative of their content.
+The variables in the tidy data set ```output.txt``` are the **mean values** for all the records in the aggregate Training and Test data sets **grouped by _Subject_ and _Activity_**. Note that the orignal data has contains average sensor readings at 2.56 seconds (128 sensor readings at 50 Hz), which samples the activity data over period of several seconds. The tidy data contains one single global average per Subject per Activity (the usefulness of which is beyond this studend's grasp), so the variable names are still indicative of their content, provided it is understood the original data contains averages over a certain time window and the tidy data contains averages of those averages.
 
 
